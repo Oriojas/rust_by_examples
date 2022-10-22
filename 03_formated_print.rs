@@ -39,7 +39,8 @@ fn main() {
     struct Structure(i32);
 
     // Para Rust 1.58 y superior, puede capturar directamente el argumento de una 
-    // variable circundante. Al igual que el anterior, esto generará // " 1". 5 espacios en blanco y un "1".
+    // variable circundante. Al igual que el anterior, esto generará 
+    // " 1". 5 espacios en blanco y un "1".
 
     let number: f64 = 1.0;
     let width: usize = 5;
